@@ -217,9 +217,11 @@ def main(ChannelFrom, ChannelTo):
  #for i in range(2):
   #syncChannels(patchchannels, testchannels)
   #time.sleep(1)
+ ChannelFrom = sys.argv[1]
+ ChannelTo = sys.argv[2]
 
  print("Hey")
- mergePkgErrata(channelOne, channelTwo)
+ mergePkgErrata(ChannelFrom, ChannelTo)
 
  client.auth.logout(key)
 
