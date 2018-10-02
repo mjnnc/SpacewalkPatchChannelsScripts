@@ -205,7 +205,7 @@ def createRootChannel(name):
   return False
 
 ########################################################################################################################
-def main(channelOne, channelTwo):
+def main(ChannelFrom, ChannelTo):
 
  #client.channel.software.delete(key, "spd-patch-channel")
  #client.channel.software.delete(key, "spt-patch-channel")
