@@ -221,7 +221,6 @@ def main():
  ChannelFrom = sys.argv[1]
  ChannelTo = sys.argv[2]
 
- print("Hey")
  mergePkgErrata(ChannelFrom, ChannelTo)
 
  client.auth.logout(key)
